@@ -235,3 +235,9 @@ ul.row {
     text-align: right;
 }
 
+/* Create a new row after each instance of the class row */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
