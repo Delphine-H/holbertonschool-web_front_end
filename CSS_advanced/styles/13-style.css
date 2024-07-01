@@ -56,6 +56,11 @@ a {
 	text-decoration: none; /* Remove underline by default */
 }
 
+/* Anchor element styles */
+a:link {
+	color: var(--text-color);
+}
+
 /* Styles for visited anchor links */
 a:visited {
     font-style: italic; /* Italicize visited links */
