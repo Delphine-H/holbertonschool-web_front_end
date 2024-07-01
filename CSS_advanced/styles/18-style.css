@@ -84,6 +84,7 @@ a {
 /* Anchor element styles */
 a:link {
     color: var(--text-color);
+	text-decoration:none;
 }
 
 /* Styles for visited anchor links */
