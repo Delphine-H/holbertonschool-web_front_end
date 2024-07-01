@@ -84,7 +84,7 @@ a {
 /* Anchor element styles */
 a:link {
     color: var(--text-color);
-	text-decoration:none;
+    text-decoration: none;
 }
 
 /* Styles for visited anchor links */
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1.6rem; /* 0.5rem and 1rem scaled to fit rems */
 }
 
 .nav-link:hover {
