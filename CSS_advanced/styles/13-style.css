@@ -52,7 +52,8 @@ body {
 
 /* Remove default underlining from anchor elements */
 a {
-    text-decoration: none;
+    color: var(--text-color); /* Default text color */
+	text-decoration: none; /* Remove underline by default */
 }
 
 /* Styles for normal anchor links */
