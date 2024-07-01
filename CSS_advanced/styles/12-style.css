@@ -35,6 +35,10 @@ html {
 
     /* Custom text-transform property */
     --section-tagline-transform: uppercase;
+
+	/* Custom title properties */
+	--section-title-margin: 0;
+	--section-title-color: var(--color-black)
 }
 
 /* Set the font-family and font-size for the body */
