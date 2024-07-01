@@ -177,11 +177,10 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style-type: none;
     text-align: center;
 }
-
-.nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -189,12 +188,10 @@ h1, h2, h3, h4, h5, h6 {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-
-.nav-link {
+.nav .nav-link {
     display: block;
-    padding: 0.8rem 1.6rem; /* 0.5rem and 1rem scaled to fit rems */
+    padding: 0.5rem 1rem;
 }
-
-.nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
