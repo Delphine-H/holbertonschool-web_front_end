@@ -56,11 +56,6 @@ a {
 	text-decoration: none; /* Remove underline by default */
 }
 
-/* Styles for normal anchor links */
-a[href] {
-    /* Target only anchor elements with href attribute */
-}
-
 /* Styles for visited anchor links */
 a:visited {
     font-style: italic; /* Italicize visited links */
